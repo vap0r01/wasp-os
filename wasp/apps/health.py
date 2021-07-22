@@ -199,5 +199,5 @@ class HealthApp():
 
         draw.set_font(fonts.sans18)
         w = int(fonts.width(fonts.sans18, "80k") / 2)
-        draw.string("{}k".format(max_steps/1000), 30 - min(w, 25), 40)
+        draw.string("{}k ".format(max_steps/1000), 30 - min(w, 25), 40)
 
